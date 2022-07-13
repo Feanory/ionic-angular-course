@@ -1,5 +1,13 @@
 {
   "name": "ionic-angular-course",
-  "integrations": {},
-  "type": "angular"
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/goto",
+      "proxyUrl": "http://localhost:8100"
+    }
+  ]
 }
